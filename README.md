@@ -6,10 +6,19 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  
+> Ruby 3.0.2p107
+
+> Rails 6.1.4.1
 
 * System dependencies
 
 * Configuration
+  
+[Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/download/#rubygems)
+```
+bundle install
+```
 
 * Database creation
 
@@ -50,4 +59,8 @@ Template da view e açoes do controller devem ter o mesmo nome por convenção (
 
     Setar Rota
 config/routes.rb
+
+    Renomear StyleSheet
+    app/assets/stylesheets
+    application.css -> application.scss
 -->
