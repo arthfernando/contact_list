@@ -68,4 +68,9 @@ application.css -> application.scss
 app/views/layouts/application.html.erb
 => yield: injeta os filhos dos outros controllers
 Criar: _header.html.erb
+
+    Models
+rails generate scaffold Contact name:string phone:string -> cria os arquivos referentes ao banco
+rails db:migrate -> gera o banco
+rails routes -> mostra as rotas
 -->
