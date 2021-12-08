@@ -61,6 +61,11 @@ Template da view e açoes do controller devem ter o mesmo nome por convenção (
 config/routes.rb
 
     Renomear StyleSheet
-    app/assets/stylesheets
-    application.css -> application.scss
+app/assets/stylesheets
+application.css -> application.scss
+
+    Criar Partials
+app/views/layouts/application.html.erb
+=> yield: injeta os filhos dos outros controllers
+Criar: _header.html.erb
 -->
