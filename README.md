@@ -76,4 +76,7 @@ rails routes -> mostra as rotas
 
 rails generate model User email:string name:string password_digest:string
 rails c -> console com acesso as classes do projeto
+
+
+rails g controller Users
 -->
